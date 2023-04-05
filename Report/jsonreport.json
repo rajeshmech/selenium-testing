@@ -1,0 +1,461 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 24,
+        "name": "To validate the postive and negative combination of login functionality",
+        "description": "",
+        "id": "to-validte-the-signin-functionlity-of-the-icic-bank;to-validate-the-postive-and-negative-combination-of-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:847)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:147)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:125)\r\n\tat org.test.Baseclass.launchBrowser(Baseclass.java:34)\r\n\tat org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)\r\n\tat ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)\r\n",
+              "duration": 74342437000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user has to launch the chrome browser and maximize the window",
+            "match": {
+              "location": "icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23900,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user has to  launch the url of the icic bank",
+            "match": {
+              "location": "icicbank.user_has_to_launch_the_url_of_the_icic_bank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user has to click for go to login page",
+            "match": {
+              "location": "icicbank.user_has_to_click_for_go_to_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7700,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user has to  pass the data  \"rajesh@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rajesh@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "icicbank.user_has_to_pass_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7800,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user has to pass  data \"1224\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1224\"",
+                  "offset": 23
+                }
+              ],
+              "location": "icicbank.user_has_to_pass_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8400,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user has to click login button",
+            "match": {
+              "location": "icicbank.user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7500,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user has to close the   browser",
+            "match": {
+              "location": "icicbank.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "To validate the postive and negative combination of login functionality",
+        "description": "",
+        "id": "to-validte-the-signin-functionlity-of-the-icic-bank;to-validate-the-postive-and-negative-combination-of-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:847)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:147)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:125)\r\n\tat org.test.Baseclass.launchBrowser(Baseclass.java:34)\r\n\tat org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)\r\n\tat ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)\r\n",
+              "duration": 11845172800,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user has to launch the chrome browser and maximize the window",
+            "match": {
+              "location": "icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14500,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user has to  launch the url of the icic bank",
+            "match": {
+              "location": "icicbank.user_has_to_launch_the_url_of_the_icic_bank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10400,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user has to click for go to login page",
+            "match": {
+              "location": "icicbank.user_has_to_click_for_go_to_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user has to  pass the data  \"raj@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"raj@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "icicbank.user_has_to_pass_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9500,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user has to pass  data \"4555\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4555\"",
+                  "offset": 23
+                }
+              ],
+              "location": "icicbank.user_has_to_pass_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9700,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user has to click login button",
+            "match": {
+              "location": "icicbank.user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user has to close the   browser",
+            "match": {
+              "location": "icicbank.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "To validate the postive and negative combination of login functionality",
+        "description": "",
+        "id": "to-validte-the-signin-functionlity-of-the-icic-bank;to-validate-the-postive-and-negative-combination-of-login-functionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:847)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:147)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:125)\r\n\tat org.test.Baseclass.launchBrowser(Baseclass.java:34)\r\n\tat org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)\r\n\tat ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)\r\n",
+              "duration": 11147967100,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user has to launch the chrome browser and maximize the window",
+            "match": {
+              "location": "icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13600,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user has to  launch the url of the icic bank",
+            "match": {
+              "location": "icicbank.user_has_to_launch_the_url_of_the_icic_bank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9200,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user has to click for go to login page",
+            "match": {
+              "location": "icicbank.user_has_to_click_for_go_to_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8300,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user has to  pass the data  \"abs@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abs@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "icicbank.user_has_to_pass_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7500,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user has to pass  data \"7788\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7788\"",
+                  "offset": 23
+                }
+              ],
+              "location": "icicbank.user_has_to_pass_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8200,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user has to click login button",
+            "match": {
+              "location": "icicbank.user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user has to close the   browser",
+            "match": {
+              "location": "icicbank.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "To validate the postive and negative combination of login functionality",
+        "description": "",
+        "id": "to-validte-the-signin-functionlity-of-the-icic-bank;to-validate-the-postive-and-negative-combination-of-login-functionality;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:847)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:147)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:125)\r\n\tat org.test.Baseclass.launchBrowser(Baseclass.java:34)\r\n\tat org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)\r\n\tat ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)\r\n",
+              "duration": 11264192200,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user has to launch the chrome browser and maximize the window",
+            "match": {
+              "location": "icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15200,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user has to  launch the url of the icic bank",
+            "match": {
+              "location": "icicbank.user_has_to_launch_the_url_of_the_icic_bank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11300,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user has to click for go to login page",
+            "match": {
+              "location": "icicbank.user_has_to_click_for_go_to_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10300,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user has to  pass the data  \"waran@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"waran@gmail.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "icicbank.user_has_to_pass_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9600,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user has to pass  data \"8888\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8888\"",
+                  "offset": 23
+                }
+              ],
+              "location": "icicbank.user_has_to_pass_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8900,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user has to click login button",
+            "match": {
+              "location": "icicbank.user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14900,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user has to close the   browser",
+            "match": {
+              "location": "icicbank.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validte the signin functionlity of the icic bank",
+    "description": "",
+    "id": "to-validte-the-signin-functionlity-of-the-icic-bank",
+    "keyword": "Feature",
+    "uri": "src/test/resources/icic.feature",
+    "tags": []
+  }
+]

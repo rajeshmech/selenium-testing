@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="108.632236">
+    <testcase classname="To validte the signin functionlity of the icic bank" name="To validate the postive and negative combination of login functionality" time="74.372547">
+        <failure message="java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#13;&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)&#13;&#10;&#9;at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)&#13;&#10;&#9;at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)&#13;&#10;&#9;at org.test.Baseclass.launchBrowser(Baseclass.java:34)&#13;&#10;&#9;at org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)&#13;&#10;&#9;at ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)&#13;&#10;"><![CDATA[Given user has to launch the chrome browser and maximize the window.........failed
+When user has to  launch the url of the icic bank...........................skipped
+And user has to click for go to login page..................................skipped
+And user has to  pass the data  "rajesh@gmail.com" in email field...........skipped
+And user has to pass  data "1224" in password field.........................skipped
+And user has to click login button..........................................skipped
+Then user has to close the   browser........................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.test.Baseclass.launchBrowser(Baseclass.java:34)
+	at org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)
+	at ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)
+]]></failure>
+    </testcase>
+    <testcase classname="To validte the signin functionlity of the icic bank" name="To validate the postive and negative combination of login functionality 2" time="11.846272">
+        <failure message="java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#13;&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)&#13;&#10;&#9;at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)&#13;&#10;&#9;at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)&#13;&#10;&#9;at org.test.Baseclass.launchBrowser(Baseclass.java:34)&#13;&#10;&#9;at org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)&#13;&#10;&#9;at ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)&#13;&#10;"><![CDATA[Given user has to launch the chrome browser and maximize the window.........failed
+When user has to  launch the url of the icic bank...........................skipped
+And user has to click for go to login page..................................skipped
+And user has to  pass the data  "raj@gmail.com" in email field..............skipped
+And user has to pass  data "4555" in password field.........................skipped
+And user has to click login button..........................................skipped
+Then user has to close the   browser........................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.test.Baseclass.launchBrowser(Baseclass.java:34)
+	at org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)
+	at ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)
+]]></failure>
+    </testcase>
+    <testcase classname="To validte the signin functionlity of the icic bank" name="To validate the postive and negative combination of login functionality 3" time="11.148523">
+        <failure message="java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#13;&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)&#13;&#10;&#9;at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)&#13;&#10;&#9;at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)&#13;&#10;&#9;at org.test.Baseclass.launchBrowser(Baseclass.java:34)&#13;&#10;&#9;at org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)&#13;&#10;&#9;at ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)&#13;&#10;"><![CDATA[Given user has to launch the chrome browser and maximize the window.........failed
+When user has to  launch the url of the icic bank...........................skipped
+And user has to click for go to login page..................................skipped
+And user has to  pass the data  "abs@gmail.com" in email field..............skipped
+And user has to pass  data "7788" in password field.........................skipped
+And user has to click login button..........................................skipped
+Then user has to close the   browser........................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.test.Baseclass.launchBrowser(Baseclass.java:34)
+	at org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)
+	at ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)
+]]></failure>
+    </testcase>
+    <testcase classname="To validte the signin functionlity of the icic bank" name="To validate the postive and negative combination of login functionality 4" time="11.264894">
+        <failure message="java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#13;&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:847)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)&#13;&#10;&#9;at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)&#13;&#10;&#9;at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)&#13;&#10;&#9;at org.test.Baseclass.launchBrowser(Baseclass.java:34)&#13;&#10;&#9;at org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)&#13;&#10;&#9;at ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)&#13;&#10;"><![CDATA[Given user has to launch the chrome browser and maximize the window.........failed
+When user has to  launch the url of the icic bank...........................skipped
+And user has to click for go to login page..................................skipped
+And user has to  pass the data  "waran@gmail.com" in email field............skipped
+And user has to pass  data "8888" in password field.........................skipped
+And user has to click login button..........................................skipped
+Then user has to close the   browser........................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.test.Baseclass.launchBrowser(Baseclass.java:34)
+	at org.stepdefinition.icicbank.user_has_to_launch_the_chrome_browser_and_maximize_the_window(icicbank.java:17)
+	at ✽.user has to launch the chrome browser and maximize the window(src/test/resources/icic.feature:14)
+]]></failure>
+    </testcase>
+</testsuite>
